@@ -1,0 +1,211 @@
+.main-header{
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    margin-top: 7rem;
+   
+}
+.main-container-header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 2rem;
+      
+}
+.main-header-left h4{
+    color: var(--color-nav);
+}
+.main-header-left h1{
+    color: var(--color-text);
+}
+.main-header-left p{
+    color: var(--second-color);
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+
+
+/*==================PROGRAMS==================*/
+
+.program{
+    margin-top: 4rem;
+}
+.program-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.program-head{
+    margin-bottom: 2rem;
+}
+.program a{
+   display: flex;
+   margin-top: 1rem;
+   align-items: center;
+}
+
+
+/*==================VALUES==================*/
+
+.values-container{
+  display: flex;
+  gap: 1rem;
+}
+.values-left{
+    width: 35%;
+}
+.values-right{
+    width: 65%;
+}
+.value-image{
+    filter: saturate(0.25);
+}
+.value-image:hover{
+    filter: saturate(1);
+}
+
+.values-right > p{
+    margin: 1.5rem 0 2rem;
+}
+.right-value-warper{
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ gap:3.5rem 1rem;
+}
+.values-card{
+    width: 48%;
+    text-align: left;
+    position: relative;
+}
+
+.values-card span{
+    position: absolute;
+    top: -1.5rem;
+}
+
+
+/* +==========Faqs section============ */
+
+
+.fags-warper{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem 3rem;
+    align-items: flex-start;
+ 
+}
+.faq{
+    background: var(--color-card);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+.faq div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text);
+}
+.faq-icon{
+    background-color: transparent;
+    color: var(--color-text);
+    font-size: 2rem;
+}
+.faq-paragraph{
+    margin-top: 2rem;
+}
+
+
+/* ===============Testimonials==================== */
+
+.testimonial{
+    width: 50rem;
+    margin-inline: auto;
+    
+}
+.card-testimonials{
+    position: relative;
+    text-align: left;
+    margin-top: 5rem;
+}
+.testimonial-avatar{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    position: absolute;
+    left: calc(50% - 2rem);
+    top: -2rem;
+    background-color: #ffff;
+    overflow: hidden;
+}
+.testimonial-quote{
+    font-style: italic;
+    margin: 1rem ;
+}
+.testimonials-btn-container{
+    width: fit-content;
+    margin: 2.5rem auto 0;
+    display: flex;
+    gap: 1rem;
+}
+.testimonials-btn{
+    background-color: transparent;
+    color: var(--color-text);
+}
+.testimonials-btn svg{
+    fill: var(--color-nav);
+    font-size: 1.8rem;
+    width: 3rem;
+    height: 3rem; 
+}
+
+
+
+/* ===============Footer==================== */
+footer{
+    background-color: var(--color-nav);
+  
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    padding: 2rem 0;
+}
+.footer-container article{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
+}
+.footer-container article h4{
+    margin-bottom: .8rem;
+    text-transform: capitalize;
+}
+.footer-social-link{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.footer-social-link a{
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    
+    
+}
+.footer-copyright{
+    text-align: center;
+    color: var(--color-text);
+    border-top: 1px solid var(--color-text);
+    padding: 1rem 0;
+}
+.footer-text{
+    color: var(--color-text);
+    line-height: 2rem;
+    
+    
+}

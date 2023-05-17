@@ -1,0 +1,144 @@
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --transition: ease-in 1s;
+    --primary-color: #2E4053 ;
+    --color-nav:#FF5733 ;
+    --second-color: #DBCAC7;
+    --color-text: #ffff;
+    --color-card: #1C4F84;
+}
+body{
+   background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80%;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+h1, h2, h3, h4, h5{
+    line-height: 1.2;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+a{
+    color: #ffff;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.btn{
+    color: var(--color-text
+    );
+    width: fit-content;
+    margin: 0 auto;
+    background: var(--color-nav);
+    border-radius: 1.5rem;
+    padding: 0.7rem 2rem;
+    font-weight: 600;
+    
+}
+.btn:hover{
+    background-color: var(--second-color);
+    color: var(--color-nav);
+}
+.main-header-right{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.main-header-circle{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background:linear-gradient(75deg, var(--color-nav),transparent);
+    position: absolute;
+}
+.main-header-right:hover .main-header-circle{
+    filter: blur(5px);
+}
+.main-header-img{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    margin-top:10rem;
+}
+
+.section-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #ffff;
+}
+.section-head span{
+    font-size: 1.5rem;
+    color: var(--color-nav);
+    background-color: var(--color-card);
+    padding: .5rem .8rem;
+    border-radius: 1rem;
+}
+
+
+.card{
+    background-color: var(--color-card);
+    border-radius: 0 3rem 0 3rem;
+    text-align: center;
+    color: #ffff;
+    padding: 3rem 2rem;
+    justify-content: center;
+}
+.card:hover{
+    background-color: var(--primary-color);
+    border: 1px solid var(--color-card);
+   
+}
+.card span{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: var(--color-nav);
+    padding: .8rem;
+    margin-bottom: .5rem;
+    display: grid;
+    place-items: center;
+    margin-inline: auto;
+    
+}
+.card:hover span{
+    background-color: var(--color-card);
+    color: var(--color-nav);
+}
