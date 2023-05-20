@@ -1,6 +1,6 @@
 .main-header{
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
     place-items: center;
     margin-top: 7rem;
    
@@ -146,11 +146,11 @@
 
 /* ===============Testimonials==================== */
 
-.testimonial{
+/*.testimonial{
     width: 50rem;
-    margin-inline: auto;
+    margin: 0 auto;
     
-}
+}*/
 .card-testimonials{
     position: relative;
     text-align: left;
@@ -275,9 +275,7 @@ footer{
     .fags-warper{
         grid-template-columns: 1fr;
     }
-    .testimonial{
-        width: 60rem;
-    }
+    
     .footer-container{
         grid-template-columns: 1fr 1fr;
         gap:4rem;
