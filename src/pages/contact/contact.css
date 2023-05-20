@@ -1,0 +1,25 @@
+.contact-container{
+    display: grid;
+    place-items: center;
+    
+}
+.contact{
+    padding: 10rem 0;
+}
+.contact-wrapper{
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+}
+.contact-wrapper a{
+    background-color: var(--color-nav);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px slid transparent;
+}
+.contact-wrapper a:hover{
+    background-color: var(--color-card);
+}
+
+

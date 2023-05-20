@@ -6,8 +6,8 @@ import { useState } from "react";
 const FAG = ({ question, answer }) => {
   const [isAnswerShowing, setIsAnswerShowing] = useState(false)
   return (
-    <article className="faq" onClick={()=>setIsAnswerShowing(prev => !prev)}>
-      <div>
+    <article  className="faq" onClick={()=>setIsAnswerShowing(prev => !prev)}>
+      <div key={question.id}>
         <h4>{question}</h4>
         <button className="faq-icon">
          {

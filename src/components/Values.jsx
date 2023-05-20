@@ -48,7 +48,7 @@ const Values = () => {
             </div>
             <div className="values-right">
                <SectionHeader icons={<GiCutDiamond/>} title="Values"/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, officiis!</p>
+              <p className='value-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, officiis!</p>
 
               <div className="right-value-warper">
                 {

@@ -63,24 +63,6 @@ img{
     background-color: var(--second-color);
     color: var(--color-nav);
 }
-.main-header-right{
-    display: grid;
-    place-items: center;
-    position: relative;
-}
-.main-header-circle{
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    background:linear-gradient(75deg, var(--color-nav),transparent);
-    position: absolute;
-}
-.main-header-right:hover .main-header-circle{
-    filter: blur(5px);
-}
-.main-header-img{
-    position: relative;
-}
 
 
 

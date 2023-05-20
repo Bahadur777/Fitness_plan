@@ -1,0 +1,38 @@
+.plan-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.plan{
+    margin-bottom: 4rem;
+}
+.plan-card h2{
+    margin-bottom: .8rem;
+}
+.plan-card small {
+    margin-bottom: 2rem;
+}
+.plan-card h1{
+    color: var(--color-nav);
+    display: block;
+}
+.plan-card h4{
+   margin-top: 2rem;
+}
+.plan-card p{
+    margin-bottom: 1rem;
+  
+}
+.plan-card p.disabled{
+    color: #B4B8BC;
+}
+@media screen and (max-width: 1024px){
+    .plan-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 768px){
+    .plan-container{
+        grid-template-columns: 1fr;
+    }
+}
