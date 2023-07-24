@@ -9,7 +9,7 @@ const links = [
   {
     id:1,
       name: "Home",
-      path: '/home'
+      path: '/Fintness_plan'
   },
   {
     id:2,
