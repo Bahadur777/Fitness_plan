@@ -9,7 +9,7 @@ const links = [
   {
     id:1,
       name: "Home",
-      path: '/Fintness_plan'
+      path: '/Fitness_plan'
   },
   {
     id:2,
